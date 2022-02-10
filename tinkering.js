@@ -37,6 +37,7 @@ function helloCat(callbackFunc, max) {
 console.log(helloCat(catSings, 3))
 */
 
+/*
 function helloCat(catFunc, max) {
   return "Hello" + catFunc(3);
 }
@@ -47,3 +48,13 @@ console.log(helloCat(function catSing(max) {
   }
   return catLyric;
 }, 3))
+*/
+
+var laugh = function(n) {
+  let sound = "";
+  for (i = 0; i < n; i++ ){
+  sound += "ha"}
+  return sound += "!";
+  }
+
+console.log(laugh(10));
